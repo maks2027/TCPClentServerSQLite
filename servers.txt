@@ -1,0 +1,110 @@
+{
+  "Only7day": false,
+  "LaunchSelect": true,
+
+  "Servers": [
+        {
+      "Ip": "192.168.10.85",
+      "Port": 7688,
+      "Tabs": [
+        {
+          "Name": "П1 Зал 6",
+          "Tab": "Sort_P1",
+          "Index": 1,
+	  "Group": 1
+        },
+        {
+          "Name": "П1 Зал 5",
+          "Tab": "Sort_P1_5",
+          "Index": 2,
+	  "Group": 1
+        },
+        {
+          "Name": "П1 Зал 4",
+          "Tab": "Sort_P1_4",
+          "Index": 3,
+	  "Group": 1
+        }
+      ]
+    },
+	{
+      "Ip": "192.168.10.79",
+      "Port": 7688,
+      "Tabs": [
+        {
+          "Name": "Р2 Зал 1",
+          "Tab": "zal_1",
+          "Index": 1,
+	  "Group": 2
+        },
+        {
+          "Name": "Р2 Зал 2",
+          "Tab": "zal_2",
+          "Index": 2,
+	  "Group": 2		  
+        },
+        {
+          "Name": "Р2 Зал 3",
+          "Tab": "zal_3",
+          "Index": 3,
+	  "Group": 2
+        },
+        {
+          "Name": "Р2 Зал 4",
+          "Tab": "zal_4",
+          "Index": 4,
+	  "Group": 2
+        },
+        {
+          "Name": "Р2 Зал 5",
+          "Tab": "zal_5",
+          "Index": 5,
+	  "Group": 2
+        },
+        {
+          "Name": "Р2 Зал 6",
+          "Tab": "zal_6",
+          "Index": 6,
+	  "Group": 2
+        }
+	  ]
+	}
+  ],
+  "Calcul": [
+    {
+      "TabEq": "zal_2",
+      "TabD": "zal_1"
+    },
+    {
+      "TabEq": "zal_3",
+      "TabD": "zal_2"
+    },
+    {
+      "TabEq": "zal_5",
+      "TabD": "zal_6"
+    },
+    {
+      "TabEq": "zal_4",
+      "TabD": "zal_5"
+    },
+    {
+      "TabEq": "Sort_P1",
+      "TabD": "Sort_P1_5"
+    },
+    {
+      "TabEq": "Sort_P1_5",
+      "TabD": "Sort_P1_4"
+    }
+  ],
+  
+  "GroupNames":[
+    {
+      "Index": 1,
+      "Name": "Бригада П1" 
+    },
+	{
+      "Index": 2,
+      "Name": "Бригада Р2" 
+    }
+  ]
+}
